@@ -1,0 +1,21 @@
+{
+  "name": "TestOnSave",
+  "main": "./lib/testonsave",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "testonsave:run"
+  },
+  "activationHooks": [
+    "language-python:grammar-used"
+  ],
+  "repository": "https://github.com/atom/testonsave",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

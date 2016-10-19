@@ -1,0 +1,30 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Run testonsave",
+        "command": "testonsave:run"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "TestOnSave",
+          "submenu": [
+            {
+              "label": "Run",
+              "command": "testonsave:run"
+            },
+            {
+              "label": "Toggle",
+              "command": "testonsave:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
